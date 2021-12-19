@@ -103,7 +103,6 @@ namespace VysProje
             "Adres",
             "Araç Modeli",
             "Envanter Yonetimi",
-            "Yedek Parça Tedarik",
             "Fabrika",
             "Musteri",
             "Nakliye",

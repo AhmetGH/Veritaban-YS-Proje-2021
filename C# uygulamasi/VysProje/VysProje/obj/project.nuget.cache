@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TVS+TN8zf5YqaXdXaJRMNaSe6wPu07k2oVB/xFNQIOb0d/E5qBQYz55eoXDbVRpfVhXQrFuhGd3gCfYaCbnbdg==",
+  "dgSpecHash": "+SOS3qqa9eEkJs5/8ceHknOxRk1rcDaNt07Xob3rqSp7ADeCSwx3emODcZ9S4iLTaq5UYBpaprTvRYS43tg+Yw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmet\\source\\repos\\VysProje\\VysProje\\VysProje.csproj",
+  "projectFilePath": "C:\\Users\\ahmet\\Desktop\\C# uygulamasi\\VysProje\\VysProje\\VysProje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmet\\.nuget\\packages\\npgsql\\6.0.1\\npgsql.6.0.1.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"

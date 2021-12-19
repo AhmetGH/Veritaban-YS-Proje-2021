@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmet\\source\\repos\\VysProje\\VysProje\\VysProje.csproj": {}
+    "C:\\Users\\ahmet\\Desktop\\C# uygulamasi\\VysProje\\VysProje\\VysProje.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmet\\source\\repos\\VysProje\\VysProje\\VysProje.csproj": {
+    "C:\\Users\\ahmet\\Desktop\\C# uygulamasi\\VysProje\\VysProje\\VysProje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmet\\source\\repos\\VysProje\\VysProje\\VysProje.csproj",
+        "projectUniqueName": "C:\\Users\\ahmet\\Desktop\\C# uygulamasi\\VysProje\\VysProje\\VysProje.csproj",
         "projectName": "VysProje",
-        "projectPath": "C:\\Users\\ahmet\\source\\repos\\VysProje\\VysProje\\VysProje.csproj",
+        "projectPath": "C:\\Users\\ahmet\\Desktop\\C# uygulamasi\\VysProje\\VysProje\\VysProje.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmet\\source\\repos\\VysProje\\VysProje\\obj\\",
+        "outputPath": "C:\\Users\\ahmet\\Desktop\\C# uygulamasi\\VysProje\\VysProje\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

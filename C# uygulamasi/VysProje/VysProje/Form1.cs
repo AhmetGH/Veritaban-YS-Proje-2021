@@ -58,7 +58,7 @@ namespace VysProje
             }
             if (comboBox1.Text == "Envanter Yonetimi")
             {
-                secilen = "envanter yonetim";
+                secilen = "envanter_yonetim";
                 label2.Text = "envanter \n yonetim id";
                 label3.Text = "envanterdeki \n toplam  urun sayisi";
                 label4.Text = "toplam siparis \n sayisi";
@@ -294,6 +294,24 @@ namespace VysProje
                 ekle.Parameters.AddWithValue("@p9", int.Parse(textBox9.Text));
                 ekle.Parameters.AddWithValue("@p10", int.Parse(textBox10.Text));
                 ekle.Parameters.AddWithValue("@p11", int.Parse(textBox11.Text));
+                ekle.ExecuteNonQuery();
+
+                MessageBox.Show("Ekleme basari ile gerceklesti");
+
+            }
+            if (comboBox1.Text == "Sipariş")
+            {
+                NpgsqlCommand ekle = new NpgsqlCommand("insert into " + secilen + "(teslim_tarihi,teslim_turu,odeme_sekli,musteri_id,adres_id,siparis_id,alinan_urun,ucret,personel_id,uretim_maliyeti) values (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10)", baglanti);
+                ekle.Parameters.AddWithValue("@p1", textBox1.Text);
+                ekle.Parameters.AddWithValue("@p2", textBox2.Text);
+                ekle.Parameters.AddWithValue("@p3", textBox3.Text);
+                ekle.Parameters.AddWithValue("@p4", int.Parse(textBox4.Text));
+                ekle.Parameters.AddWithValue("@p5", int.Parse(textBox5.Text));
+                ekle.Parameters.AddWithValue("@p6", int.Parse(textBox6.Text));
+                ekle.Parameters.AddWithValue("@p7", textBox7.Text);
+                ekle.Parameters.AddWithValue("@p8", int.Parse(textBox8.Text));
+                ekle.Parameters.AddWithValue("@p9", int.Parse(textBox9.Text));
+                ekle.Parameters.AddWithValue("@p10", int.Parse(textBox10.Text));
                 ekle.ExecuteNonQuery();
 
                 MessageBox.Show("Ekleme basari ile gerceklesti");
